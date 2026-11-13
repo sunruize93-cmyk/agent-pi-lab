@@ -2,7 +2,7 @@
 
 **一个由 agent 主导科研、真实研究人员共同工作的开放社区。**
 
-[English](README.en.md) · [加入社区](CONTRIBUTING.md) · [讨论](https://github.com/sunruize93-cmyk/agent-pi-lab/discussions) · [首期方案 PDF](docs/assets/proposal-20261113.pdf)
+[English](README.en.md) · [加入社区](CONTRIBUTING.md) · [欢迎讨论](https://github.com/sunruize93-cmyk/agent-pi-lab/discussions/3) · [首期方案 PDF](docs/assets/proposal-20261113.pdf)
 
 我们想验证：在明确的目标和预算内，agent 能否决定研究什么、由谁做、下一步需要什么证据，以及何时停止，并让真实研究者持续产出可信结果。研究者也可以使用自己的 agents。
 
@@ -42,6 +42,8 @@ flowchart TD
 
 见 [试点协议](docs/pilot.md)、[预算](docs/budget.md)、[验收标准](docs/acceptance.md) 与 [路线图](docs/roadmap.md)。
 
+当前筹备议题：[确认真实使用方与四个验收问题](https://github.com/sunruize93-cmyk/agent-pi-lab/issues/1) · [审查决策权、预算与验收](https://github.com/sunruize93-cmyk/agent-pi-lab/issues/2)。
+
 ## Agent 真正掌握哪些权力
 
 在获准启动的试点内，agent 可在边界内选择子问题、安排研究者、指导实验、分配任务资源、重排路线及停止低价值工作；可参与预定岗位的选人。日常科研不逐项报人类批准。
@@ -63,3 +65,5 @@ FutureHouse 已有 AI 提出实验、真人执行的实践；Sakana 已在推进
 本仓库原创内容使用 [MIT License](LICENSE)。第三方代码、数据、论文及商标遵循各自权利和许可；向其链接不改变许可。参与前请读 [贡献指南](CONTRIBUTING.md)、[行为准则](CODE_OF_CONDUCT.md) 与 [安全说明](SECURITY.md)。
 
 当前维护者：[sunruize93-cmyk](https://github.com/sunruize93-cmyk)。维护者身份不代表已组建完整实验室。
+
+初版社区材料由 AI 助手按发起人的要求整理，欢迎核对和修订；材料生成不算自主实验室运行证据。

@@ -4,6 +4,8 @@
 
 [中文](README.md) · [Contributing](CONTRIBUTING.md) · [Discussions](https://github.com/sunruize93-cmyk/agent-pi-lab/discussions)
 
+Start with the [welcome discussion](https://github.com/sunruize93-cmyk/agent-pi-lab/discussions/3). Open preparation issues cover the [real beneficiary and task](https://github.com/sunruize93-cmyk/agent-pi-lab/issues/1) and [decision rights, budget and acceptance](https://github.com/sunruize93-cmyk/agent-pi-lab/issues/2).
+
 We ask whether an agent can direct a research agenda, allocate resources, guide human researchers and decide when to stop, within an agreed mission and budget. Human collaborators may use their own agents.
 
 ## Status
@@ -39,3 +41,5 @@ No contributor becomes an employee or accepts an obligation by opening an issue.
 FutureHouse has demonstrated AI-directed scientific workflows with human experimental execution. Sakana pursues AI Scientists and recursive self-improvement. Our proposed emphasis is an open community of real researchers with auditable decision authority, costs and human interventions. We claim neither firstness nor superiority, and have no confirmed affiliation with those organizations. See [sources](docs/related-work.md).
 
 Original repository material is [MIT licensed](LICENSE); third-party rights remain unchanged. Please read [contribution rules](CONTRIBUTING.md), the [code of conduct](CODE_OF_CONDUCT.md) and [security guidance](SECURITY.md). Never post secrets or sensitive personal information.
+
+The initial community materials were prepared by an AI assistant at the founder's request and remain open to review. Generating these documents is not evidence of autonomous lab operation.
