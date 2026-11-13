@@ -1,0 +1,41 @@
+name: 真实任务 / Task proposal
+description: 从实际使用方、现有强方法和验收条件出发。
+title: "[任务提案] "
+body:
+  - type: markdown
+    attributes:
+      value: "提交提案不授权实验或支出。使用者报告不是已确认缺陷；请区分事实、推测和待复现内容。English is welcome."
+  - type: textarea
+    id: beneficiary
+    attributes:
+      label: 谁在实际使用，为什么需要处理 / Beneficiary
+      description: 可以描述角色和工作流，不必公布姓名或机构私密信息。需求确认尚未取得时请明确写出。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 问题和可公开的证据 / Problem and evidence
+      description: 仓库版本、报告、最小复现或原始来源。无复现时不要标为已验证。
+    validations:
+      required: true
+  - type: textarea
+    id: baseline
+    attributes:
+      label: 强基线和现有工具 / Existing methods
+      description: 已有办法是什么，两组应该拥有哪些相同信息和能力？
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 成功条件与停止条件 / Acceptance and stop conditions
+    validations:
+      required: true
+  - type: textarea
+    id: resources
+    attributes:
+      label: 预算、时间、许可与部署约束 / Resources and constraints
+      description: 尚未落实的条件请单独注明；不提交数据原件、密钥或内部合同。
+    validations:
+      required: true

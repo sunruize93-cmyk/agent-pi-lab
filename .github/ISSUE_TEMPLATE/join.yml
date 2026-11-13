@@ -1,0 +1,48 @@
+name: 加入社区 / Join
+description: 介绍技能、兴趣和可投入时间。无需学历证明或私人简历。
+title: "[加入] "
+body:
+  - type: markdown
+    attributes:
+      value: "社区处于筹备阶段。报名不等于录用、署名或付费承诺。English is welcome. Do not post private CVs or personal identifiers."
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 公开信息与社区规则
+      options:
+        - label: 我已阅读贡献指南与行为准则，以下内容可以公开，不包含密钥或敏感个人信息。
+          required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: 想参与的方向 / Interest
+      multiple: true
+      options:
+        - 研究与推导 / Research
+        - 工程与复现 / Engineering and reproduction
+        - 独立复核 / Independent verification
+        - 实际任务使用方 / Task beneficiary
+        - 运营与文档 / Operations and documentation
+    validations:
+      required: true
+  - type: textarea
+    id: skills
+    attributes:
+      label: 技能与兴趣 / Skills
+      description: 写你能做什么，以及希望和社区一起解决什么。不要求职位或学历。
+    validations:
+      required: true
+  - type: textarea
+    id: work
+    attributes:
+      label: 可选的公开工作样例 / Optional public work
+      description: 可以是仓库、笔记、复现或一个具体问题；不贴私人材料。
+  - type: input
+    id: availability
+    attributes:
+      label: 大致工时与时区 / Approximate availability
+      placeholder: "例如每周 2 小时，UTC+9；也可以只贡献一次文档审查"
+  - type: textarea
+    id: expectations
+    attributes:
+      label: 希望获得的支持或需要先讨论的边界

@@ -1,0 +1,41 @@
+name: 资源支持意向 / Resource support
+description: 非约束性地讨论津贴、API、云计算或独立复核支持。
+title: "[资源意向] "
+body:
+  - type: markdown
+    attributes:
+      value: "这里不收款，也不自动确认赞助关系。只填可公开内容；不要提供合同、付款资料、密钥或私人联系方式。English is welcome."
+  - type: dropdown
+    id: resource
+    attributes:
+      label: 支持类别 / Resource type
+      multiple: true
+      options:
+        - 研究者津贴 / Research stipends
+        - 模型 API / Model access
+        - 云计算与存储 / Compute and storage
+        - 独立复核 / Independent review
+        - 真实任务与使用方 / Real task and beneficiary
+        - 运营或文档 / Operations and documentation
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 可公开讨论的支持范围 / Proposed scope
+      description: 可以只说资源类型，无需披露机构名称或金额。
+    validations:
+      required: true
+  - type: textarea
+    id: conditions
+    attributes:
+      label: 使用期限、约束与需要核对的条件
+    validations:
+      required: true
+  - type: checkboxes
+    id: expectations
+    attributes:
+      label: 预期
+      options:
+        - label: 我理解此 Issue 不算到账或正式合作，赞助不购买正结果、论文署名或结论否决权。
+          required: true
