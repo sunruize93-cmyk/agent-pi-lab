@@ -1,0 +1,37 @@
+{
+  "status": "proposed",
+  "currency": "CNY",
+  "base_weeks": 8,
+  "extension_weeks": 4,
+  "base": [
+    {"name": "research_contributors", "quantity": 192, "unit": "person_hour", "rate": 250, "amount": 48000},
+    {"name": "human_pi_baseline", "quantity": 32, "unit": "person_hour", "rate": 500, "amount": 16000},
+    {"name": "independent_review", "quantity": 32, "unit": "person_hour", "rate": 300, "amount": 9600},
+    {"name": "operations", "quantity": 48, "unit": "person_hour", "rate": 150, "amount": 7200},
+    {"name": "founding_coordination", "quantity": 24, "unit": "person_hour", "rate": 150, "amount": 3600},
+    {"name": "model_api", "amount": 8000},
+    {"name": "cloud_compute", "amount": 6000},
+    {"name": "storage_and_administration", "amount": 1600}
+  ],
+  "base_subtotal": 100000,
+  "contingency": 12000,
+  "base_ceiling": 112000,
+  "base_tranches": [25000, 45000, 42000],
+  "extension": [
+    {"name": "research_contributors", "amount": 24000},
+    {"name": "human_pi_baseline", "amount": 4000},
+    {"name": "independent_review", "amount": 2400},
+    {"name": "operations", "amount": 2400},
+    {"name": "founding_coordination", "amount": 1200},
+    {"name": "model_api", "amount": 2000},
+    {"name": "cloud_compute", "amount": 2000}
+  ],
+  "extension_ceiling": 38000,
+  "total_ceiling": 150000,
+  "task_runs": 8,
+  "run_ceiling": 10000,
+  "run_researcher_hours": 20,
+  "run_model_cloud_ceiling": 1000,
+  "shared_preparation_researcher_hours": 32,
+  "shared_model_cloud_budget": 6000
+}
